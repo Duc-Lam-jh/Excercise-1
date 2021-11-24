@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T R A N S</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1100px)">
+
+
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
+    <script src="./js/general.js"></script>
+</head>
+
+<body>
+
+    <div class="menu" onclick="ToggleNavbar()">
+        <box-icon id='menu-icon' name='menu' color="white"></box-icon>
+    </div>
+    <div class="logo" id="trans-logo">T R A <span>N</span> S</div>
+
+    <navbar id="navbar" class="inactive">
+        <div class="navbar-item active">About</div>
+        <div class="navbar-item">Products</div>
+        <span class="navbar-item" onclick="ToggleMenu('projects')">Projects ▼
+            <div id="projects" class="list inactive" onmouseleave="ToggleMenu('projects')">
+                <a target="_blank" href='/' class="item">Isn't it good</a target="_blank" href='/'>
+                <div class="item">Isn't it good</div>
+                <div class="item">Isn't it good</div>
+                <div class="item">Isn't it good</div>
+            </div>
+        </span>
+        <div class="navbar-item">Contact</div>
+    </navbar>
+
+    <div id="header" class="header">
+
+        <div class="title-box">
+            <h1>SLEEK AS <br /> FUKC</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore</p>
+            <div class="grid">
+                <div class="dash"></div>
+                <div class="arrow">
+                    <img src="./img/right-arrow.png" width="20px">
+                </div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <box-icon name='down-arrow-circle' size="65px" color="rgb(242, 101, 34)"></box-icon>
+            <box-icon class="read-down" name='down-arrow-circle' size="65px" color="white"></box-icon>
+
+            <box-icon name='right-arrow-circle' size="65px" color="white"></box-icon>
+            <box-icon class="read-continue" name='right-arrow-circle' size="65px" color="rgb(242, 101, 34)"></box-icon>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="bao col-d-2-3">
+            <div class="col-d-1"></div>
+            <div class="card bg-orange">
+                <h2>BRIGHT ASS ORANGE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi
+                    ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit
+                    anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur.</p>
+            </div>
+
+            <img class="bg-orange col-d-3 row-d-1"
+                src="https://i.pinimg.com/originals/4f/90/85/4f908590e62c182c5cec75a35aef38a5.jpg" />
+
+            <div class="tweet card bg-white col-d-3 row-d-2">
+                <h2>FINALLY A LAYOUT THAT BLOWS YOUR HEAD OFF</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua.</p>
+                <a class="tweet-this tooltip" href='/' target="_blank">
+                    <box-icon id="tweet-logo" name='twitter' type='logo' color='rgb(41, 126, 255)'></box-icon>
+                    <box-icon id="tweet-logo-gray" name='twitter' type='logo' color='rgb(207, 207, 207)'></box-icon>
+                    <span>Tweet this shit</span>
+                    <span class="tooltiptext">Click to share to twitter</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="info col-d-2">
+            <div class="address card bg-white">
+                <h2>Melbourne, Australia</h2>
+                <div class="content">
+                    <p class="gray-out" style="font-size: 18px;">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit, sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit
+                        in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p><br />
+                    <p class="gray-out">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque
+                        laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
+                        vitae
+                        dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                        fugit,
+                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro
+                        quisquam
+                        est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+                        numquam
+                        eius
+                        modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+                        minima
+                        veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+                        ea
+                        commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+                        quam
+                        nihil
+                        molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum
+                        fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                        soluta
+                        nobis
+                        est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+                        omnis
+                        voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
+                        debitis
+                        aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
+                        recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                        voluptatibus
+                        maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                        voluptatum
+                        deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate
+                        non
+                        provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+                        dolorum
+                        fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum
+                        soluta
+                        nobis
+                        est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus,
+                        omnis
+                        voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
+                        debitis
+                        aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
+                        recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
+                        voluptatibus
+                        maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+    <div class="parallax"></div>
+
+    <div class="container">
+        <section class="was col-d-2-3">
+            <div class="card bg-orange">
+                <h2>WORdS & SUCH</h2>
+            </div>
+            <img src="https://cdn.pixabay.com/photo/2016/10/25/14/37/landscape-1769052_960_720.png" />
+            <div class="card bg-orange col-d-1-3">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                    voluptatem. Ut enim ad minima
+                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
+                    nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+                    quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
+                    voluptatem. Ut enim ad minima
+                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+                    commodi consequatur?</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                    fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+            </div>
+        </section>
+
+        <section class="take-action bg-gray col-d-2-3">
+            <h2>TAKE ACTION</h2>
+            <form name="signup" action="">
+                <label for="name">
+                    <input type="text" id="name" placeholder="Name" enterkeyhint="next" />
+                </label>
+                <label for="tel">
+                    <input type="tel" id="tel" placeholder="Contact Phone" enterkeyhint="next" />
+                </label>
+                <label for="email">
+                    <input type="email" id="email" placeholder="Email" enterkeyhint="done" />
+                </label>
+                <button type="submit">Sign Up</button>
+            </form>
+        </section>
+
+        <div class="parallax col-d-2-3"></div>
+        <!-- <img class="col-d-2-3"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSemyz_eP-1CLtVrX08KzpD0rxVGKxZQvr94w&usqp=CAU"
+            width="100%" /> -->
+
+        <section class="otin col-d-2">
+            <div class="card bg-orange col-d-1">
+                <h2>OH THIS IS NICE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo.</p>
+            </div>
+
+            <img src="https://st.depositphotos.com/2001755/3410/i/950/depositphotos_34101875-stock-photo-landscape-in-orange-tones.jpg"
+                width="100%" />
+
+            <div class="card bg-white col-d-2 row-d-2">
+                <h2>THE END IS NIGH, WELL THE FOOTER ANYWAYS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="footer bg-gray">
+        <div class="sidebar"></div>
+        <div class="navigation">
+            <div class="item">
+                <div class="footer-title">QuickLinks</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+            </div>
+
+            <div class="item">
+                <div class="footer-title">QuickLinks</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+            </div>
+
+            <div class="item">
+                <div class="footer-title">Our Profile</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+            </div>
+
+            <div class="item">
+                <div class="footer-title">Information</div>
+            </div>
+
+            <div class="item">
+                <div class="footer-title">Courses</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+            </div>
+
+            <div class="item">
+                <div class="footer-title">Publication</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+                <div class="link">A Footer Link</div>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua.</p>
+    </div>
+</body>
+
+</html>
