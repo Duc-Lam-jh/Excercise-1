@@ -8,6 +8,7 @@
 p {
 	font-family: 'Times New Roman', Times, serif;
 	font-family: 'Open sans';
+	line-height: 25px;
 	font-size: 16px;
 }
 
@@ -58,7 +59,7 @@ p {
 	display: flex;
 	flex-direction: column;
 
-	height: 130vh;
+	height: 135vh;
 
 	background-color: black;
 }
@@ -66,7 +67,7 @@ p {
 .header .flex {
 	position: relative;
 	margin-left: var(--leftMargin);
-	margin-top: 135px;
+	margin-top: 90px;
 }
 
 .logo {
@@ -94,6 +95,8 @@ p {
 
 .header .flex{
 	cursor: pointer;
+	position: absolute;
+	top: 72vh;
 }
 
 /*=====Navbar styles=====*/
@@ -183,7 +186,8 @@ navbar.scroll{
 	position: relative;
 	display: block;
 
-	margin-top: 42vh;
+	margin-top: 35vh;
+	width: 50%;
 	color: var(--navbarColor);
 }
 
@@ -219,6 +223,7 @@ navbar.scroll{
 	width: 100%;
 }
 
+
 .bao img {
 	height: 100%;
 	width: 100%;
@@ -236,10 +241,19 @@ navbar.scroll{
 	margin-top: 50vh;
 }
 
+.info .card.bg-white p{
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+
 .info .card.bg-white div {
 	display: block;
 	column-count: 2;
 	column-gap: 25px;
+}
+
+.tweet.card.bg-white p {
+	line-height: 25px;
 }
 
 .tweet-this > *{
@@ -279,7 +293,9 @@ navbar.scroll{
 .was .card.bg-orange:nth-child(3) {
 	display: block;
 	column-count: 2;
-	column-gap: 100px;
+	column-gap: 50px;
+	min-height: 50vh;
+	padding-inline-end: 50px;
 }
 
 /*=====Sign up form styles=====*/
@@ -293,6 +309,7 @@ navbar.scroll{
 
 	position: relative;
 	top: 50vh;
+	margin-bottom: 30vh;
 }
 
 .take-action h2{
@@ -360,14 +377,17 @@ navbar.scroll{
 
 .card h2 {
 	font-size: 40px;
+	margin-bottom: 25px;
 	text-transform: uppercase;
 	background-color: transparent;
 }
 
 .card p {
 	background-color: transparent;
-	font-size: 18px;
+	font-size: 15px;
 	padding: 0 50px;
+	margin-bottom: 25px;
+	line-height: 20px;
 }
 
 .card.bg-orange p{
