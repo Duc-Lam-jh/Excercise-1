@@ -439,6 +439,10 @@ navbar.inactive{
     color: white;
 }
 
+.card.bg-white p{
+    line-height: 25px;
+}
+
 .card p{
     background-color: transparent;
     margin: 0;
