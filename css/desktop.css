@@ -295,7 +295,7 @@ navbar.scroll{
 	column-count: 2;
 	column-gap: 50px;
 	min-height: 50vh;
-	padding-inline-end: 50px;
+	padding-inline-end: 100px;
 }
 
 /*=====Sign up form styles=====*/
