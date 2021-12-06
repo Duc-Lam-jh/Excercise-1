@@ -99,29 +99,31 @@ a{
     display: flex;
     margin-left: var(--leftMargin);
     margin-top: 100px;
+    margin-bottom: 100px;
 
     z-index: 2;
 }
 
 .read-down{
 	position: absolute;
-	transition: 500ms;
+    top: 0px;
+	transition: 300ms;
 }
 
 .read-down:hover{
 	transition: 300ms;
-	opacity: 0;
+	top: 10px;
 }
 
 .read-continue{
 	position: absolute;
-	transition: 500ms;
+	transition: 300ms;
 	left: 65px;
 }
 
 .read-continue:hover{
 	transition: 300ms;
-	opacity: 0;
+	left: 75px;
 }
 
 .logo{
